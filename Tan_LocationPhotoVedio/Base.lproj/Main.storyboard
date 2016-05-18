@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ycB-Jk-VUE">
+                                <rect key="frame" x="10" y="20" width="80" height="30"/>
+                                <color key="backgroundColor" red="0.75883704360000004" green="1" blue="0.66173548469999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="地图定位"/>
+                                <connections>
+                                    <segue destination="xma-2R-WSN" kind="modal" id="Ctx-aE-Omg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uw4-rj-GFK">
+                                <rect key="frame" x="93" y="20" width="67" height="30"/>
+                                <color key="backgroundColor" red="0.75883704360000004" green="1" blue="0.66173548469999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="拍照"/>
+                                <connections>
+                                    <action selector="openVideo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sLX-wS-Mxs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rn0-fw-Ulu">
+                                <rect key="frame" x="163" y="20" width="75" height="30"/>
+                                <color key="backgroundColor" red="0.75883704360000004" green="1" blue="0.66173548469999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="录制视频"/>
+                                <connections>
+                                    <action selector="openVideo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="90X-HT-Ah1"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="76v-VZ-ESD">
+                                <rect key="frame" x="0.0" y="60" width="320" height="420"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="76v-VZ-ESD" secondAttribute="trailing" id="Ydg-DI-Qmo"/>
+                            <constraint firstItem="76v-VZ-ESD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="b9o-lS-PGC"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="76v-VZ-ESD" secondAttribute="bottom" id="gDg-xI-JPG"/>
+                            <constraint firstItem="76v-VZ-ESD" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="60" id="jhe-kO-OHU"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="imgView" destination="76v-VZ-ESD" id="Dfy-8h-D7s"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="217" y="349"/>
+        </scene>
+        <!--Map View Controller-->
+        <scene sceneID="huC-fb-j19">
+            <objects>
+                <viewController id="xma-2R-WSN" customClass="MapViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XmP-Vg-KXk"/>
+                        <viewControllerLayoutGuide type="bottom" id="QR5-oH-RmT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="igZ-dP-6Ag">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W7Y-Iy-oTo">
+                                <rect key="frame" x="10" y="20" width="80" height="30"/>
+                                <color key="backgroundColor" red="0.75883704360000004" green="1" blue="0.66173548469999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="返回"/>
+                                <connections>
+                                    <action selector="returnLastPage:" destination="xma-2R-WSN" eventType="touchUpInside" id="P2L-Me-aU4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pgF-hv-IhQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="598" y="349"/>
+        </scene>
+    </scenes>
+</document>

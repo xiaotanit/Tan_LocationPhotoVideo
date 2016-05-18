@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDB5999B1CDD6EC000DA17DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB5999A1CDD6EC000DA17DE /* main.m */; };
+		EDB5999E1CDD6EC000DA17DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB5999D1CDD6EC000DA17DE /* AppDelegate.m */; };
+		EDB599A11CDD6EC000DA17DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB599A01CDD6EC000DA17DE /* ViewController.m */; };
+		EDB599A41CDD6EC000DA17DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDB599A21CDD6EC000DA17DE /* Main.storyboard */; };
+		EDB599A61CDD6EC000DA17DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDB599A51CDD6EC000DA17DE /* Assets.xcassets */; };
+		EDB599A91CDD6EC000DA17DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDB599A71CDD6EC000DA17DE /* LaunchScreen.storyboard */; };
+		EDB599B21CDD6ED800DA17DE /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB599B11CDD6ED800DA17DE /* MapViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EDB599961CDD6EC000DA17DE /* Tan_LocationPhotoVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tan_LocationPhotoVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB5999A1CDD6EC000DA17DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDB5999C1CDD6EC000DA17DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EDB5999D1CDD6EC000DA17DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EDB5999F1CDD6EC000DA17DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EDB599A01CDD6EC000DA17DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EDB599A31CDD6EC000DA17DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDB599A51CDD6EC000DA17DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDB599A81CDD6EC000DA17DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDB599AA1CDD6EC000DA17DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDB599B01CDD6ED800DA17DE /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		EDB599B11CDD6ED800DA17DE /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDB599931CDD6EC000DA17DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDB5998D1CDD6EC000DA17DE = {
+			isa = PBXGroup;
+			children = (
+				EDB599981CDD6EC000DA17DE /* Tan_LocationPhotoVideo */,
+				EDB599971CDD6EC000DA17DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDB599971CDD6EC000DA17DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDB599961CDD6EC000DA17DE /* Tan_LocationPhotoVideo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDB599981CDD6EC000DA17DE /* Tan_LocationPhotoVideo */ = {
+			isa = PBXGroup;
+			children = (
+				EDB5999C1CDD6EC000DA17DE /* AppDelegate.h */,
+				EDB5999D1CDD6EC000DA17DE /* AppDelegate.m */,
+				EDB5999F1CDD6EC000DA17DE /* ViewController.h */,
+				EDB599A01CDD6EC000DA17DE /* ViewController.m */,
+				EDB599A21CDD6EC000DA17DE /* Main.storyboard */,
+				EDB599A51CDD6EC000DA17DE /* Assets.xcassets */,
+				EDB599A71CDD6EC000DA17DE /* LaunchScreen.storyboard */,
+				EDB599AA1CDD6EC000DA17DE /* Info.plist */,
+				EDB599991CDD6EC000DA17DE /* Supporting Files */,
+				EDB599B01CDD6ED800DA17DE /* MapViewController.h */,
+				EDB599B11CDD6ED800DA17DE /* MapViewController.m */,
+			);
+			name = Tan_LocationPhotoVideo;
+			path = Tan_LocationPhotoVedio;
+			sourceTree = "<group>";
+		};
+		EDB599991CDD6EC000DA17DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDB5999A1CDD6EC000DA17DE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDB599951CDD6EC000DA17DE /* Tan_LocationPhotoVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDB599AD1CDD6EC000DA17DE /* Build configuration list for PBXNativeTarget "Tan_LocationPhotoVideo" */;
+			buildPhases = (
+				EDB599921CDD6EC000DA17DE /* Sources */,
+				EDB599931CDD6EC000DA17DE /* Frameworks */,
+				EDB599941CDD6EC000DA17DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tan_LocationPhotoVideo;
+			productName = Tan_LocationPhotoVedio;
+			productReference = EDB599961CDD6EC000DA17DE /* Tan_LocationPhotoVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDB5998E1CDD6EC000DA17DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = PX_Mac;
+				TargetAttributes = {
+					EDB599951CDD6EC000DA17DE = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 6B744Z9R6U;
+					};
+				};
+			};
+			buildConfigurationList = EDB599911CDD6EC000DA17DE /* Build configuration list for PBXProject "Tan_LocationPhotoVideo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDB5998D1CDD6EC000DA17DE;
+			productRefGroup = EDB599971CDD6EC000DA17DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDB599951CDD6EC000DA17DE /* Tan_LocationPhotoVideo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDB599941CDD6EC000DA17DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB599A91CDD6EC000DA17DE /* LaunchScreen.storyboard in Resources */,
+				EDB599A61CDD6EC000DA17DE /* Assets.xcassets in Resources */,
+				EDB599A41CDD6EC000DA17DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDB599921CDD6EC000DA17DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB599A11CDD6EC000DA17DE /* ViewController.m in Sources */,
+				EDB5999E1CDD6EC000DA17DE /* AppDelegate.m in Sources */,
+				EDB5999B1CDD6EC000DA17DE /* main.m in Sources */,
+				EDB599B21CDD6ED800DA17DE /* MapViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDB599A21CDD6EC000DA17DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDB599A31CDD6EC000DA17DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDB599A71CDD6EC000DA17DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDB599A81CDD6EC000DA17DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDB599AB1CDD6EC000DA17DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDB599AC1CDD6EC000DA17DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDB599AE1CDD6EC000DA17DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Tan_LocationPhotoVedio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tan.image;
+				PRODUCT_NAME = Tan_LocationPhotoVideo;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		EDB599AF1CDD6EC000DA17DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Tan_LocationPhotoVedio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tan.image;
+				PRODUCT_NAME = Tan_LocationPhotoVideo;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDB599911CDD6EC000DA17DE /* Build configuration list for PBXProject "Tan_LocationPhotoVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB599AB1CDD6EC000DA17DE /* Debug */,
+				EDB599AC1CDD6EC000DA17DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDB599AD1CDD6EC000DA17DE /* Build configuration list for PBXNativeTarget "Tan_LocationPhotoVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB599AE1CDD6EC000DA17DE /* Debug */,
+				EDB599AF1CDD6EC000DA17DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDB5998E1CDD6EC000DA17DE /* Project object */;
+}
